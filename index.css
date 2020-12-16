@@ -1,0 +1,53 @@
+body, html {
+    font-family: 'Montserrat', Serif;
+}
+div#wrapper, footer{
+    margin: auto;
+    width: 1000px;
+    padding: 20px;
+}
+.Banner {
+    background-image: url("../Images/IndexBanner.jpg");
+
+    min-height: 200px;
+    max-width: 1500px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+
+}
+/* Navbar links */
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color:  white;
+}
+article{
+    display: inline-block;
+    width: 30%;
+    padding-right: 30px;
+    vertical-align: top;
+}
+footer{
+    background-color: gray;
+    color:white;
+}
+footer a{
+    color:Black;
+    text-decoration: none;
+}
