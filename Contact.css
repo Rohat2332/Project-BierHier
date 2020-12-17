@@ -53,6 +53,9 @@ footer a{
 .adres{
     padding-left: 720px;
 }
+.overons{
+    padding-left: 720px;
+}
 .mapouter{
     margin-top: -290px;
     position:relative;
@@ -77,7 +80,10 @@ input[type=text], select, textarea {
 }
 .row{
     margin-top: 30px;
+    margin-top: -290px;
     max-width: 680px;
+    position:relative;
+    text-align:start;
 }
 
 input[type=submit]:hover {
