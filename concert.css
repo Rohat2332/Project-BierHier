@@ -7,7 +7,7 @@ div#wrapper, footer{
     padding: 20px;
 }
 .Banner {
-    background-image: url("../Images/Concertenbanner.jpg");
+    background-image: url("Images/Concertenbanner.jpg");
 
     min-height: 200px;
     max-width: 1500px;
