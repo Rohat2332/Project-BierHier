@@ -7,7 +7,7 @@ div#wrapper, footer{
     padding: 20px;
 }
 .Banner {
-    background-image: url("Images/Concertenbanner.jpg");
+    background-image: url("Images/Sportbanner.jpg");
 
     min-height: 200px;
     max-width: 1500px;
@@ -35,13 +35,6 @@ div#wrapper, footer{
 .navbar a:hover {
     background-color:  white;
 }
-.lijst {
-    padding-right: 32px;
-    padding-top: 30px;
-}
-.concerten {
-    padding-right: 30px;
-}
 article{
     display: inline-block;
     width: 30%;
@@ -55,4 +48,17 @@ footer{
 footer a {
     color: Black;
     text-decoration: none;
+}
+article {
+    display: inline-block;
+    width: 27%;
+    padding-right: 100px;
+    vertical-align: top;
+}
+.article2 {
+    display: inline-block;
+    width: 47%;
+    padding-right: 20px;
+    vertical-align: top;
+
 }
