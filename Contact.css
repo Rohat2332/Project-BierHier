@@ -45,6 +45,8 @@ article{
 footer{
     background-color: gray;
     color:white;
+    position: relative;
+
 }
 footer a{
     color:Black;
@@ -53,9 +55,29 @@ footer a{
 .adres{
     padding-left: 720px;
 }
-.overons{
-    padding-left: 720px;
+
+.Rohat{
+    Max-width: 200px;
 }
+
+.Gaum{
+    position: relative;
+    left: 240px;
+    bottom: 280px;
+    Max-width: 200px;
+}
+
+.Bryant{
+    position: relative;
+    left: 480px;
+    bottom: 690px;
+    Max-width: 200px;
+}
+
+.OverOns{
+    Max-Height:450px;
+}
+
 .mapouter{
     margin-top: -290px;
     position:relative;
@@ -80,7 +102,6 @@ input[type=text], select, textarea {
 }
 .row{
     margin-top: 30px;
-    margin-top: -290px;
     max-width: 680px;
     position:relative;
     text-align:start;
